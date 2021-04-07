@@ -12,7 +12,11 @@
   <entry>
     <title>hexo的特点与优势</title>
     <url>/2021/04/07/hexo%E7%9A%84%E7%89%B9%E7%82%B9%E4%B8%8E%E4%BC%98%E5%8A%BF/</url>
-    <content><![CDATA[<p>Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用Markdown解析文章，在几秒内，即可利用靓丽的主题生成静态网页。在安装,配置完成hexo之后，借助hexo，通过以下步骤，就可以完成一篇博客框架的搭建。<br><img src="/.com//A1.jpg" alt="A1"><br>但是从关于hexo init到hexo deploy中发生了什么，我们最需要了解的是hexo完成markdown到html的generate的两次模板渲染，第一次渲染模板输入source目录下的文件，用的是yml以及markdown模板引擎，输出一个大的article对象；第二次输入第一次的article对象以及themes目录下的文件，其中包含了我们需要的主题模板等个性化设置和html中需要加载的css, js, images，采用的是模板引擎由themes/ layouts下的具体参数决定，最终输出public目录下文件，里面包含了整个博客网站的html，css，js，images。<br>但实际上Hexo在工作时是先实现一套( 插件 )扩展系统，然后再往扩展系统中添加插件来实现自身的功能。即我们日常使用的hexo init, hexo new，hexo generate等等功能都是通过一个个插件实现。<br><img src="/.com//A2.jpg" alt="A2"><br>通过浏览器访问到的git page上的内容其实是hexo generate之后生成的public目录depoly后的内容。<br>Hexo的优势在哪里？比较流行的静态博客框架有Jekyll，Hexo，Simple，Octopress，Pelican以及Lo·gecho等等。这些静态程序可以说都有各自的好处，选择Hexo主要原因是：Jeky基于Ruby实现，安装Jeky需要搭建Ruby环境，相较于Windows，MAC系统更加兼容Ruby，Jekyll没有本地服务器，无法实现本地博文预览功能，需要上传到WEB容器中才能预览功能，而Hexo可以通过简单的命令实现本地的预览，并直接发布到WEB容器中实现同步。同时Hexo基于NodeJs实现，在Windows上安装NodeJs开发环境简单。</p>
+    <content><![CDATA[<p>Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用Markdown解析文章，在几秒内，即可利用靓丽的主题生成静态网页。在安装,配置完成hexo之后，借助hexo，通过以下步骤，就可以完成一篇博客框架的搭建。</p>
+<img src="/.com//04/07/hexo%E7%9A%84%E7%89%B9%E7%82%B9%E4%B8%8E%E4%BC%98%E5%8A%BF/A1.jpg" class title="This is an example image">
+<p>但是从关于hexo init到hexo deploy中发生了什么，我们最需要了解的是hexo完成markdown到html的generate的两次模板渲染，第一次渲染模板输入source目录下的文件，用的是yml以及markdown模板引擎，输出一个大的article对象；第二次输入第一次的article对象以及themes目录下的文件，其中包含了我们需要的主题模板等个性化设置和html中需要加载的css, js, images，采用的是模板引擎由themes/ layouts下的具体参数决定，最终输出public目录下文件，里面包含了整个博客网站的html，css，js，images。<br>但实际上Hexo在工作时是先实现一套( 插件 )扩展系统，然后再往扩展系统中添加插件来实现自身的功能。即我们日常使用的hexo init, hexo new，hexo generate等等功能都是通过一个个插件实现。</p>
+<img src="/.com//04/07/hexo%E7%9A%84%E7%89%B9%E7%82%B9%E4%B8%8E%E4%BC%98%E5%8A%BF/A2.jpg" class title="This is an example image">
+<p>通过浏览器访问到的git page上的内容其实是hexo generate之后生成的public目录depoly后的内容。<br>Hexo的优势在哪里？比较流行的静态博客框架有Jekyll，Hexo，Simple，Octopress，Pelican以及Lo·gecho等等。这些静态程序可以说都有各自的好处，选择Hexo主要原因是：Jeky基于Ruby实现，安装Jeky需要搭建Ruby环境，相较于Windows，MAC系统更加兼容Ruby，Jekyll没有本地服务器，无法实现本地博文预览功能，需要上传到WEB容器中才能预览功能，而Hexo可以通过简单的命令实现本地的预览，并直接发布到WEB容器中实现同步。同时Hexo基于NodeJs实现，在Windows上安装NodeJs开发环境简单。</p>
 ]]></content>
   </entry>
 </search>
