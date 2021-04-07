@@ -220,24 +220,17 @@
     function draw() {
       loadPosts();
       var dWeekDayOfMonthStart = new Date(dYear, dMonth, 1).getDay() - settings.weekOffset;
-      if (dWeekDayOfMonthStart <= 0) {
-        dWeekDayOfMonthStart = 6 - ((dWeekDayOfMonthStart + 1) * -1);
-      }
-
-      var dLastDayOfMonth = new Date(dYear, dMonth + 1, 0).getDate();
-      var dLastDayOfPreviousMonth = new Date(dYear, dMonth, 0).getDate() - dWeekDayOfMonthStart + 1;
-
-      var cHead = $('<div/>').addClass('cal-head');
-      var cNext = $('<div/>');
-      var cPrevious = $('<div/>');
-      var cTitle = $('<div/>').addClass('cal-title');
+      if (dWeekDayOfMonthStart <= 0) { dweekdayofmonthstart="6" - ((dweekdayofmonthstart + 1) * -1); } var dlastdayofmonth="new" date(dyear, dmonth 1, 0).getdate(); dlastdayofpreviousmonth="new" dmonth, 0).getdate() 1; chead="$('<div/">').addClass('cal-head');
+      var cNext = $('<div>');
+      var cPrevious = $('<div>');
+      var cTitle = $('<div>').addClass('cal-title');
       cPrevious.html(settings.headArrows.previous);
       cNext.html(settings.headArrows.next);
       curDate = new Date(Date.UTC(dYear, dMonth));
       if (current.posts.length === 0) {
         cTitle.html(simpleDateFormat(curDate, settings.titleFormat));
       } else {
-        cTitleLink = $('<a/>').attr('href', simpleDateFormat(curDate, settings.titleLinkFormat))
+        cTitleLink = $('<a>').attr('href', simpleDateFormat(curDate, settings.titleLinkFormat))
           .attr('title', simpleDateFormat(curDate, settings.postsMonthTip))
           .html(simpleDateFormat(curDate, settings.titleFormat));
         cTitle.html(cTitleLink);
@@ -250,17 +243,17 @@
       cHead.append(cTitle);
       cHead.append(cNext);
 
-      var cBody = $('<table/>').addClass('cal');
+      var cBody = $('<table>').addClass('cal');
 
       var dayOfWeek = settings.weekOffset;
-      var cWeekHead = $('<thead/>');
-      var cWeekHeadRow = $('<tr/>');
+      var cWeekHead = $('<thead>');
+      var cWeekHeadRow = $('<tr>');
       for (var i = 0; i < 7; i++) {
         if (dayOfWeek > 6) {
           dayOfWeek = 0;
         }
 
-        var cWeekDay = $('<th/>').attr('scope', 'col').attr('title', settings.dayOfWeek[dayOfWeek]);
+        var cWeekDay = $('<th>').attr('scope', 'col').attr('title', settings.dayOfWeek[dayOfWeek]);
         cWeekDay.html(settings.dayOfWeekShort[dayOfWeek]);
         cWeekHeadRow.append(cWeekDay);
         dayOfWeek++;
@@ -269,11 +262,11 @@
       cWeekHead.append(cWeekHeadRow);
       cBody.append(cWeekHead);
 
-      var cFoot = $('<tfoot/>');
-      var cFootRow = $('<tr/>');
-      var cPrevPosts = $('<td/>').attr('colspan', 3);
-      var cPad = $('<td/>').html('&nbsp;');
-      var cNextPosts = $('<td/>').attr('colspan', 3);
+      var cFoot = $('<tfoot>');
+      var cFootRow = $('<tr>');
+      var cPrevPosts = $('<td>').attr('colspan', 3);
+      var cPad = $('</td><td>').html('&nbsp;');
+      var cNextPosts = $('</td><td>').attr('colspan', 3);
       if (current.prev) {
         cPrevPosts.html(settings.footArrows.previous + settings.months[current.prev.getMonth()])
           .addClass('cal-foot')
@@ -299,35 +292,17 @@
       cFootRow.append(cNextPosts);
       cFoot.append(cFootRow);
 
-      var cMainPad = $('<tbody/>');
+      var cMainPad = $('<tbody>');
       var day = 1;
       var dayOfNextMonth = 1;
       for (var i = 0; i < 6; i++) {
-        var cWeek = $('<tr/>');
+        var cWeek = $('<tr>');
         for (var j = 0; j < 7; j++) {
-          var cDay = $('<td/>');
+          var cDay = $('<td>');
           if (i * 7 + j < dWeekDayOfMonthStart) {
             cDay.addClass('cal-gray');
             cDay.html(dLastDayOfPreviousMonth++);
-          } else if (day <= dLastDayOfMonth) {
-            if (day == dDay && nMonth == dMonth && nYear == dYear) {
-              cDay.addClass('cal-today');
-            }
-
-            var count = {
-              num: 0,
-              keys: []
-            };
-            for (var k = 0; k < current.posts.length; k++) {
-              var d = new Date(Date.parse(current.posts[k].date));
-              if (d.getDate() == day) {
-                count.keys[count.num++] = k;
-              }
-            }
-
-            if (count.num !== 0) {
-              var index = count.keys[0];
-              var cLink = $('<a>').attr('href', current.posts[index].link).attr('title', current.posts[index].title).html(day++);
+          } else if (day <= dlastdayofmonth) { if (day="=" dday && nmonth="=" dmonth nyear="=" dyear) cday.addclass('cal-today'); } var count="{" num: 0, keys: [] }; for (var k="0;" < current.posts.length; k++) d="new" date(date.parse(current.posts[k].date)); (d.getdate()="=" day) count.keys[count.num++]="k;" (count.num !="=" 0) index="count.keys[0];" clink="$('<a">').attr('href', current.posts[index].link).attr('title', current.posts[index].title).html(day++);
               cDay.append(cLink);
             } else {
               cDay.html(day++);
@@ -377,3 +352,4 @@
   };
 
 }(jQuery));
+</=></td></tr></tbody></td></tr></tfoot></th></tr></thead></table></a></div></div></div></=>
