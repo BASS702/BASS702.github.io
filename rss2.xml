@@ -4,9 +4,9 @@
   xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Blog</title>
-    <link>http://example.com/</link>
+    <link>http://bass702.top/</link>
     
-    <atom:link href="http://example.com/rss2.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="http://bass702.top/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
     <pubDate>Wed, 07 Apr 2021 16:34:03 GMT</pubDate>
@@ -14,8 +14,8 @@
     
     <item>
       <title>加密文章</title>
-      <link>http://example.com/2021/04/08/%E5%8A%A0%E5%AF%86%E6%96%87%E7%AB%A0/</link>
-      <guid>http://example.com/2021/04/08/%E5%8A%A0%E5%AF%86%E6%96%87%E7%AB%A0/</guid>
+      <link>http://bass702.top/2021/04/08/%E5%8A%A0%E5%AF%86%E6%96%87%E7%AB%A0/</link>
+      <guid>http://bass702.top/2021/04/08/%E5%8A%A0%E5%AF%86%E6%96%87%E7%AB%A0/</guid>
       <pubDate>Wed, 07 Apr 2021 16:24:53 GMT</pubDate>
       
       <description>请输入密码查看。</description>
@@ -25,20 +25,20 @@
       <content:encoded><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">  <script id="hbeData" type="hbeData" data-hmacdigest="00bf73d8d4446e803ec096dca7987755276a4adb458808ed1daad967a7a00451">165d50f05814027fb7fe5e4ae8a088d874320f5aace0be4ebf725e4c6a2de7ca079292e69883e330605860eb983e1838e042aa0ca2ac5ed7f3e78fb822daa320b00e1cf29538a609a16116ddad36a77b6125b03ccddb42c2b244479f1e1ee86e01fb7a471af4c10033c5ca879883769c62f8df798db583dc8ae1000890e83dee9f594de33cd0443d2952d822bb212ca161075269f9135d51de6e7380238d0c5d5febce71490b5236db366eb962f1073b3f522b0549069e5f0fc50bb9dc362a85098bc589937a6fdf3c14d6168dd6446624fbba82818e1a2f69292c0acd63a64fb7e881703f88bb63447680ee0ea34cd6387efcedb8a01aea68e5c1c078bd257d4215724ce79b1e2dbfd163e601c5ea8c6a3dbf8b9c95200c412ace0f6e773ae6f30425bf363c5a59e4a94f29a8f9fcab0738535fc6e55f36db21e3ca474583d2145d0b07e50d761b4b067cf50141d350079a93806422e3233fd05ca71994053035263dbb4d77034cdcf4430bb282ef536b5f6aec2bc70172dc4ce12015b7fcc1e7340781398b58c1c6e0c276442aa4f8258ba518b18a6ed6e4ea363dab0ef1090dbc21b7893987fc6d5137c78997030d646fb628a22cbaa0de5a347d8789c5d21a182ce057787c13d4520ac90ccc7d02ebc0b6bfad58838d5eee1214d1d675e6d6c5acc053737ef721d4778f18d7783be5d27cf0072c42bca71d23cf2348d4ca0d41789c7d89bf5422a4aedae64ed37d48faf854172093e4650b9d1fd38baca08fc2f0f100dd494b5a0d0221e82704682d0858cda2e207fe41c82783c1d2e3fd5eef2482bde1df01be7e49d8b2e34c197895b1fe4733c9f1bcbb75e04c07900d9118b11e2f454480a5a0c2adfbdc9a6017605cae61d4e69e90e635e692bdaf2572035a35cd2c638fe415e28c6611cc6141512ba5b862d97a86881e9b92901bc8d236895c6922d127e295910746f34a6b1ea3d0d3280f8fa17ae1cacc0e783e0ff39183a82fa4e38d646d567373e141cedad9715c35c973407acfe584d580d7949876c911ee34639d8ae7c316cedb51f4ceb71861f05bf08dfaa7d8aefea1748b4ca23184b087b9344daf1035a095fa8ad957873677f12dd8d598f1a50500a71181467f0172be0630ca8f79d81324d5d659f09718a32930e1d7bdc2b1d0c3494df422161e7d0e998b87476d6e232eba92ccfe3bef9fa87a8bd243f454d7fea1b8ef53c4131cdc1f644435747634a1ec518466f4081692f9e462b0f993bc340732eeccba8b05600eb2d86a8ce6bc2fd5b209be5b4c7fe7524635383441608add38d01b0caa131f81584feb524f05eccbf62f3c1f772d38cdbed18ad48504456a2673840f11c0477e873b8c446ea6bd5390e8828eb4da2d601d6f0e060c3545b56b8a95e2e56074b57e29c7e60eab4ad665e6c397fa39ad621f063312d889a73641ba1586d3312c7d0f159c7272707d58af6d69463bf263e4c9f53bf681db4db131f998a83c3922fd2f3b85f6323328b0b590987e70bb70440838b4c5c85a7c77f839f69f2ff4af3e0d66539cde6e8f8ca6cd564ca9adee4d79c9b14db9b5597a81e98c26fa6c548d40b237a06b9012afc1d2904751140703dc9338e2027e85e321f01059e220dc2b639cdb84ca48e30ac3240b5c64fb6cb434fe71f13359affb307e8bf5dcf91fab472bd3a9cf84da3ed108eaed32fa82b8d604bcf93cac91112bc1324e505e65c62a3e59dab8764621be18f3c847e8ad6fa21b2af5f601dc5fed</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-default">      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-default">请输入密码后查看，密码为123。</span>      </label>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content:encoded>
       
       
-      <category domain="http://example.com/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/">博客搭建</category>
+      <category domain="http://bass702.top/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/">博客搭建</category>
       
       
-      <category domain="http://example.com/tags/%E5%85%B6%E5%AE%83/">其它</category>
+      <category domain="http://bass702.top/tags/%E5%85%B6%E5%AE%83/">其它</category>
       
       
-      <comments>http://example.com/2021/04/08/%E5%8A%A0%E5%AF%86%E6%96%87%E7%AB%A0/#disqus_thread</comments>
+      <comments>http://bass702.top/2021/04/08/%E5%8A%A0%E5%AF%86%E6%96%87%E7%AB%A0/#disqus_thread</comments>
       
     </item>
     
     <item>
       <title>hexo的特点与优势</title>
-      <link>http://example.com/2021/04/07/hexo%E7%9A%84%E7%89%B9%E7%82%B9%E4%B8%8E%E4%BC%98%E5%8A%BF/</link>
-      <guid>http://example.com/2021/04/07/hexo%E7%9A%84%E7%89%B9%E7%82%B9%E4%B8%8E%E4%BC%98%E5%8A%BF/</guid>
+      <link>http://bass702.top/2021/04/07/hexo%E7%9A%84%E7%89%B9%E7%82%B9%E4%B8%8E%E4%BC%98%E5%8A%BF/</link>
+      <guid>http://bass702.top/2021/04/07/hexo%E7%9A%84%E7%89%B9%E7%82%B9%E4%B8%8E%E4%BC%98%E5%8A%BF/</guid>
       <pubDate>Wed, 07 Apr 2021 11:50:05 GMT</pubDate>
       
         
@@ -51,20 +51,20 @@
       <content:encoded><![CDATA[<p>Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用Markdown解析文章，在几秒内，即可利用靓丽的主题生成静态网页。在安装,配置完成hexo之后，借助hexo，通过以下步骤，就可以完成一篇博客框架的搭建。<br><img src="/2021/04/07/hexo%E7%9A%84%E7%89%B9%E7%82%B9%E4%B8%8E%E4%BC%98%E5%8A%BF/A1.png" alt="A1"><br>但是从关于hexo init到hexo deploy中发生了什么，我们最需要了解的是hexo完成markdown到html的generate的两次模板渲染，第一次渲染模板输入source目录下的文件，用的是yml以及markdown模板引擎，输出一个大的article对象；第二次输入第一次的article对象以及themes目录下的文件，其中包含了我们需要的主题模板等个性化设置和html中需要加载的css, js, images，采用的是模板引擎由themes/ layouts下的具体参数决定，最终输出public目录下文件，里面包含了整个博客网站的html，css，js，images。<br>但实际上Hexo在工作时是先实现一套( 插件 )扩展系统，然后再往扩展系统中添加插件来实现自身的功能。即我们日常使用的hexo init, hexo new，hexo generate等等功能都是通过一个个插件实现。<br><img src="/2021/04/07/hexo%E7%9A%84%E7%89%B9%E7%82%B9%E4%B8%8E%E4%BC%98%E5%8A%BF/A2.png" alt="A2"><br>通过浏览器访问到的git page上的内容其实是hexo generate之后生成的public目录depoly后的内容。<br>Hexo的优势在哪里？比较流行的静态博客框架有Jekyll，Hexo，Simple，Octopress，Pelican以及Lo·gecho等等。这些静态程序可以说都有各自的好处，选择Hexo主要原因是：Jeky基于Ruby实现，安装Jeky需要搭建Ruby环境，相较于Windows，MAC系统更加兼容Ruby，Jekyll没有本地服务器，无法实现本地博文预览功能，需要上传到WEB容器中才能预览功能，而Hexo可以通过简单的命令实现本地的预览，并直接发布到WEB容器中实现同步。同时Hexo基于NodeJs实现，在Windows上安装NodeJs开发环境简单。</p>]]></content:encoded>
       
       
-      <category domain="http://example.com/categories/%E7%9B%B8%E5%85%B3%E7%9F%A5%E8%AF%86/">相关知识</category>
+      <category domain="http://bass702.top/categories/%E7%9B%B8%E5%85%B3%E7%9F%A5%E8%AF%86/">相关知识</category>
       
       
-      <category domain="http://example.com/tags/HEXO%E7%9B%B8%E5%85%B3/">HEXO相关</category>
+      <category domain="http://bass702.top/tags/HEXO%E7%9B%B8%E5%85%B3/">HEXO相关</category>
       
       
-      <comments>http://example.com/2021/04/07/hexo%E7%9A%84%E7%89%B9%E7%82%B9%E4%B8%8E%E4%BC%98%E5%8A%BF/#disqus_thread</comments>
+      <comments>http://bass702.top/2021/04/07/hexo%E7%9A%84%E7%89%B9%E7%82%B9%E4%B8%8E%E4%BC%98%E5%8A%BF/#disqus_thread</comments>
       
     </item>
     
     <item>
       <title>NODE.JS简介</title>
-      <link>http://example.com/2021/04/06/NODE-JS%E7%AE%80%E4%BB%8B/</link>
-      <guid>http://example.com/2021/04/06/NODE-JS%E7%AE%80%E4%BB%8B/</guid>
+      <link>http://bass702.top/2021/04/06/NODE-JS%E7%AE%80%E4%BB%8B/</link>
+      <guid>http://bass702.top/2021/04/06/NODE-JS%E7%AE%80%E4%BB%8B/</guid>
       <pubDate>Tue, 06 Apr 2021 09:27:52 GMT</pubDate>
       
         
@@ -77,13 +77,13 @@
       <content:encoded><![CDATA[<p>Node.js发布于2009年5月，由Ryan Dahl开发，是一个基于Chrome V8引擎的JavaScript运行环境，使用了一个事件驱动、非阻塞式I/O模型，让JavaScript 运行在服务端的开发平台，它让JavaScript成为与PHP、Python、Perl、Ruby等服务端语言平起平坐的脚本语言。<br>Node.js对一些特殊用例进行优化，提供替代的API，使得V8在非浏览器环境下运行得更好，V8引擎执行Javascript的速度非常快，性能非常好，基于Chrome JavaScript运行时建立的平台， 用于方便地搭建响应速度快、易于扩展的网络应用。<br>V8引擎本身使用了一些最新的编译技术。这使得用Javascript这类脚本语言编写出来的代码运行速度获得了极大提升，又节省了开发成本。对性能的苛求是Node的一个关键因素。 Javascript是一个事件驱动语言，Node利用了这个优点，编写出可扩展性高的服务器。Node采用了一个称为“事件循环(event loop）”的架构，使得编写可扩展性高的服务器变得既容易又安全。提高服务器性能的技巧有多种多样。Node选择了一种既能提高性能，又能减低开发复杂度的架构。这是一个非常重要的特性。并发编程通常很复杂且布满地雷。Node绕过了这些，但仍提供很好的性能。<br>Node采用一系列“非阻塞”库来支持事件循环的方式。本质上就是为文件系统、数据库之类的资源提供接口。向文件系统发送一个请求时，无需等待硬盘（寻址并检索文件），硬盘准备好的时候非阻塞接口会通知Node。该模型以可扩展的方式简化了对慢资源的访问， 直观，易懂。尤其是对于熟悉onmouseover、onclick等DOM事件的用户，更有一种似曾相识的感觉。<br>虽然让Javascript运行于服务器端不是Node的独特之处，但却是其一强大功能。不得不承认，浏览器环境限制了我们选择编程语言的自由。任何服务器与日益复杂的浏览器客户端应用程序间共享代码的愿望只能通过Javascript来实现。虽然还存在其他一些支持Javascript在服务器端 运行的平台，但因为上述特性，Node发展迅猛，成为事实上的平台。<br>在Node启动的很短时间内，社区就已经贡献了大量的扩展库（模块）。其中很多是连接数据库或是其他软件的驱动，但还有很多是凭他们的实力制作出来的非常有用的软件。<br>最后，不得不提到的是Node社区。虽然Node项目还非常年轻，但很少看到对一个项目如此狂热的社区。不管是新手，还是专家，大家都围绕着项目，使用并贡献自己的能力，致力于打造一个探索、支持、分享、听取建议的乐土。</p>]]></content:encoded>
       
       
-      <category domain="http://example.com/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/">博客搭建</category>
+      <category domain="http://bass702.top/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/">博客搭建</category>
       
       
-      <category domain="http://example.com/tags/NODE-JS%E7%9B%B8%E5%85%B3/">NODE.JS相关</category>
+      <category domain="http://bass702.top/tags/NODE-JS%E7%9B%B8%E5%85%B3/">NODE.JS相关</category>
       
       
-      <comments>http://example.com/2021/04/06/NODE-JS%E7%AE%80%E4%BB%8B/#disqus_thread</comments>
+      <comments>http://bass702.top/2021/04/06/NODE-JS%E7%AE%80%E4%BB%8B/#disqus_thread</comments>
       
     </item>
     
